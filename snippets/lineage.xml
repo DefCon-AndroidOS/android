@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- LineageOS additions -->
+  <project path="android" name="DefCon-AndroidOS/android" />
+  <project path="device/lineage/atv" name="DefCon-AndroidOS/android_device_lineage_atv" />
+  <project path="device/lineage/sepolicy" name="DefCon-AndroidOS/android_device_lineage_sepolicy" />
+  <project path="external/bash" name="DefCon-AndroidOS/android_external_bash" />
+  <project path="external/exfat" name="DefCon-AndroidOS/android_external_exfat" />
+  <project path="external/htop" name="DefCon-AndroidOS/android_external_htop" />
+  <project path="external/libncurses" name="DefCon-AndroidOS/android_external_libncurses" />
+  <project path="external/libnfc-nxp" name="DefCon-AndroidOS/android_external_libnfc-nxp" />
+  <!--<project path="external/libtar" name="DefCon-AndroidOS/android_external_libtar" />-->
+  <!--<project path="external/lineage-sdk-api-coverage" name="DefCon-AndroidOS/android_external_lineage-sdk-api-coverage" />-->
+  <project path="external/nano" name="DefCon-AndroidOS/android_external_nano" />
+  <project path="external/ntfs-3g" name="DefCon-AndroidOS/android_external_ntfs-3g" />
+  <project path="external/p7zip" name="DefCon-AndroidOS/android_external_p7zip" />
+  <project path="external/pigz" name="DefCon-AndroidOS/android_external_pigz" />
+  <project path="external/rsync" name="DefCon-AndroidOS/android_external_rsync" />
+  <project path="external/unrar" name="DefCon-AndroidOS/android_external_unrar" />
+  <project path="external/vim" name="DefCon-AndroidOS/android_external_vim" />
+  <project path="external/zip" name="DefCon-AndroidOS/android_external_zip" />
+  <project path="hardware/broadcom/nfc" name="DefCon-AndroidOS/android_hardware_broadcom_nfc" />
+  <project path="hardware/lineage/interfaces" name="DefCon-AndroidOS/android_hardware_lineage_interfaces" />
+  <project path="hardware/lineage/livedisplay" name="DefCon-AndroidOS/android_hardware_lineage_livedisplay" />
+  <!--<project path="hardware/lineage/telephony" name="DefCon-AndroidOS/android_hardware_lineage_telephony" />-->
+  <project path="lineage-sdk" name="DefCon-AndroidOS/android_lineage-sdk" />
+  <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="DefCon-AndroidOS/android_packages_apps_OpenWeatherMapProvider" />-->
+  <project path="packages/apps/AudioFX" name="DefCon-AndroidOS/android_packages_apps_AudioFX" />
+  <project path="packages/apps/Backgrounds" name="DefCon-AndroidOS/android_packages_apps_Backgrounds" />
+  <project path="packages/apps/Eleven" name="DefCon-AndroidOS/android_packages_apps_Eleven" />
+  <project path="packages/apps/Etar" name="DefCon-AndroidOS/android_packages_apps_Etar" />
+  <project path="packages/apps/ExactCalculator" name="DefCon-AndroidOS/android_packages_apps_ExactCalculator" />
+  <project path="packages/apps/Exchange" name="DefCon-AndroidOS/android_packages_apps_Exchange" />
+  <project path="packages/apps/FMRadio" name="DefCon-AndroidOS/android_packages_apps_FMRadio" />
+  <project path="packages/apps/FlipFlap" name="DefCon-AndroidOS/android_packages_apps_FlipFlap" />
+  <project path="packages/apps/Jelly" name="DefCon-AndroidOS/android_packages_apps_Jelly" />
+  <project path="packages/apps/LineageParts" name="DefCon-AndroidOS/android_packages_apps_LineageParts" />
+  <!--<project path="packages/apps/LockClock" name="DefCon-AndroidOS/android_packages_apps_LockClock" />-->
+  <project path="packages/apps/Profiles" name="DefCon-AndroidOS/android_packages_apps_Profiles" />
+  <project path="packages/apps/Recorder" name="DefCon-AndroidOS/android_packages_apps_Recorder" />
+  <project path="packages/apps/SetupWizard" name="DefCon-AndroidOS/android_packages_apps_SetupWizard" />
+  <project path="packages/apps/Snap" name="DefCon-AndroidOS/android_packages_apps_Snap" />
+  <project path="packages/apps/Trebuchet" name="DefCon-AndroidOS/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/Updater" name="DefCon-AndroidOS/android_packages_apps_Updater" />
+  <project path="packages/overlays/Lineage" name="DefCon-AndroidOS/android_packages_overlays_Lineage" />
+  <!--<project path="packages/providers/WeatherProvider" name="DefCon-AndroidOS/android_packages_providers_WeatherProvider" />-->
+  <project path="packages/resources/devicesettings" name="DefCon-AndroidOS/android_packages_resources_devicesettings" />
+  <!--<project path="prebuilts/lineage-sdk" name="DefCon-AndroidOS/android_prebuilts_lineage-sdk" clone-depth="1" />-->
+  <project path="prebuilts/tools-lineage" name="DefCon-AndroidOS/android_prebuilts_tools-lineage" clone-depth="1" />
+  <project path="vendor/lineage" name="DefCon-AndroidOS/android_vendor_lineage" />
+
+  <!-- CodeAurora additions -->
+  <project path="device/qcom/sepolicy" name="DefCon-AndroidOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />
+  <project path="device/qcom/sepolicy-legacy" name="DefCon-AndroidOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-17.1-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="DefCon-AndroidOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-17.1-legacy-um" />
+  <project path="external/ant-wireless/ant_native" name="DefCon-AndroidOS/android_external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" name="DefCon-AndroidOS/android_external_ant-wireless_ant_service" />
+  <project path="external/ant-wireless/antradio-library" name="DefCon-AndroidOS/android_external_ant-wireless_antradio-library" />
+  <project path="external/connectivity" name="DefCon-AndroidOS/android_external_connectivity" groups="qcom,pdk-qcom" />
+  <project path="external/json-c" name="DefCon-AndroidOS/android_external_json-c" groups="qcom,pdk-qcom" />
+  <project path="hardware/qcom-caf/apq8084/audio" name="DefCon-AndroidOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-apq8084" />
+  <project path="hardware/qcom-caf/apq8084/display" name="DefCon-AndroidOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-apq8084" />
+  <project path="hardware/qcom-caf/apq8084/media" name="DefCon-AndroidOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-apq8084" />
+  <project path="hardware/qcom-caf/common" name="DefCon-AndroidOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/bt" name="DefCon-AndroidOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="lineage-17.1-caf" />
+  <project path="hardware/qcom-caf/msm8916/audio" name="DefCon-AndroidOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/display" name="DefCon-AndroidOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/media" name="DefCon-AndroidOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8952/audio" name="DefCon-AndroidOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8952" />
+  <project path="hardware/qcom-caf/msm8952/display" name="DefCon-AndroidOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8952" />
+  <project path="hardware/qcom-caf/msm8952/media" name="DefCon-AndroidOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8952" />
+  <project path="hardware/qcom-caf/msm8960/audio" name="DefCon-AndroidOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8960/display" name="DefCon-AndroidOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8960/media" name="DefCon-AndroidOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8974/audio" name="DefCon-AndroidOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/display" name="DefCon-AndroidOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/media" name="DefCon-AndroidOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8994/audio" name="DefCon-AndroidOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8994/display" name="DefCon-AndroidOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8994/media" name="DefCon-AndroidOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="DefCon-AndroidOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="DefCon-AndroidOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="DefCon-AndroidOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="DefCon-AndroidOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="DefCon-AndroidOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="DefCon-AndroidOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="DefCon-AndroidOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="DefCon-AndroidOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="DefCon-AndroidOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="DefCon-AndroidOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="DefCon-AndroidOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="DefCon-AndroidOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="DefCon-AndroidOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="DefCon-AndroidOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="DefCon-AndroidOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-sm8250" />
+  <project path="hardware/qcom-caf/thermal" name="DefCon-AndroidOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" />
+  <project path="hardware/qcom-caf/vr" name="DefCon-AndroidOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" />
+  <project path="hardware/qcom-caf/wlan" name="DefCon-AndroidOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-17.1-caf" />
+  <project path="system/tools/dtbtool" name="DefCon-AndroidOS/android_system_tools_dtbtool" />
+  <project path="vendor/codeaurora/telephony" name="DefCon-AndroidOS/android_vendor_codeaurora_telephony" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="DefCon-AndroidOS/android_vendor_nxp_interfaces_opensource_nfc" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="DefCon-AndroidOS/android_vendor_nxp_opensource_external_libnfc-nci" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="DefCon-AndroidOS/android_vendor_nxp_opensource_frameworks" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="DefCon-AndroidOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="DefCon-AndroidOS/android_vendor_nxp_opensource_halimpl" revision="lineage-17.1-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="DefCon-AndroidOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-17.1-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="DefCon-AndroidOS/android_vendor_nxp_opensource_halimpl" revision="lineage-17.1-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="DefCon-AndroidOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-17.1-sn100x" />
+  <project path="vendor/qcom/opensource/audio" name="DefCon-AndroidOS/android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="DefCon-AndroidOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="qcom,pdk-qcom"/>
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="DefCon-AndroidOS/android_vendor_qcom_opensource_bluetooth_ext" groups="qcom,pdk-qcom"/>
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="DefCon-AndroidOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="DefCon-AndroidOS/android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom"/>
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="DefCon-AndroidOS/android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="DefCon-AndroidOS/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qcom_fm" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="DefCon-AndroidOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/dataservices" name="DefCon-AndroidOS/android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/interfaces" name="DefCon-AndroidOS/android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/libfmjni" name="DefCon-AndroidOS/android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/power" name="DefCon-AndroidOS/android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="DefCon-AndroidOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/vibrator" name="DefCon-AndroidOS/android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" />
+
+  <!-- Infrastructure -->
+  <project path="lineage/ansible" name="DefCon-AndroidOS/ansible" groups="infra" revision="master" />
+  <project path="lineage/charter" name="DefCon-AndroidOS/charter" groups="infra" revision="master" />
+  <project path="lineage/crowdin" name="DefCon-AndroidOS/cm_crowdin" groups="infra" revision="master" />
+  <project path="lineage/cve" name="DefCon-AndroidOS/cve_tracker" groups="infra" revision="master" />
+  <project path="lineage/hudson" name="DefCon-AndroidOS/hudson" groups="infra" revision="master" />
+  <project path="lineage/mirror" name="DefCon-AndroidOS/mirror" groups="infra" revision="master" />
+  <project path="lineage/slackbot" name="DefCon-AndroidOS/slackbot" groups="infra" revision="master" />
+  <project path="lineage/website" name="DefCon-AndroidOS/www" groups="infra" revision="master" />
+  <project path="lineage/wiki" name="DefCon-AndroidOS/lineage_wiki" groups="infra" revision="master" />
+
+  <!-- Tools -->
+  <project path="lineage/contributors-cloud-generator" name="DefCon-AndroidOS/contributors-cloud-generator" groups="tools" revision="master" />
+  <project path="lineage/scripts" name="DefCon-AndroidOS/scripts" groups="tools" revision="master" />
+</manifest>
