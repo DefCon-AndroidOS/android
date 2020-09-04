@@ -150,17 +150,17 @@
   <project path="vendor/qcom/opensource/vibrator" name="DefCon-AndroidOS/android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" />
 
   <!-- Infrastructure -->
-  <project path="lineage/ansible" name="DefCon-AndroidOS/ansible" groups="infra" revision="master" />
-  <project path="lineage/charter" name="DefCon-AndroidOS/charter" groups="infra" revision="master" />
-  <project path="lineage/crowdin" name="DefCon-AndroidOS/cm_crowdin" groups="infra" revision="master" />
-  <project path="lineage/cve" name="DefCon-AndroidOS/cve_tracker" groups="infra" revision="master" />
-  <project path="lineage/hudson" name="DefCon-AndroidOS/hudson" groups="infra" revision="master" />
-  <project path="lineage/mirror" name="DefCon-AndroidOS/mirror" groups="infra" revision="master" />
-  <project path="lineage/slackbot" name="DefCon-AndroidOS/slackbot" groups="infra" revision="master" />
-  <project path="lineage/website" name="DefCon-AndroidOS/www" groups="infra" revision="master" />
-  <project path="lineage/wiki" name="DefCon-AndroidOS/lineage_wiki" groups="infra" revision="master" />
+  <project path="lineage/ansible" name="DefCon-AndroidOS/ansible" groups="infra" revision="android-10" />
+  <project path="lineage/charter" name="DefCon-AndroidOS/charter" groups="infra" revision="android-10" />
+  <project path="lineage/crowdin" name="DefCon-AndroidOS/cm_crowdin" groups="infra" revision="android-10" />
+  <project path="lineage/cve" name="DefCon-AndroidOS/cve_tracker" groups="infra" revision="android-10" />
+  <project path="lineage/hudson" name="DefCon-AndroidOS/hudson" groups="infra" revision="android-10" />
+  <project path="lineage/mirror" name="DefCon-AndroidOS/mirror" groups="infra" revision="android-10" />
+  <project path="lineage/slackbot" name="DefCon-AndroidOS/slackbot" groups="infra" revision="android-10" />
+  <project path="lineage/website" name="DefCon-AndroidOS/www" groups="infra" revision="android-10" />
+  <project path="lineage/wiki" name="DefCon-AndroidOS/lineage_wiki" groups="infra" revision="android-10" />
 
   <!-- Tools -->
-  <project path="lineage/contributors-cloud-generator" name="DefCon-AndroidOS/contributors-cloud-generator" groups="tools" revision="master" />
-  <project path="lineage/scripts" name="DefCon-AndroidOS/scripts" groups="tools" revision="master" />
+  <project path="lineage/contributors-cloud-generator" name="DefCon-AndroidOS/contributors-cloud-generator" groups="tools" revision="android-10" />
+  <project path="lineage/scripts" name="DefCon-AndroidOS/scripts" groups="tools" revision="android-10" />
 </manifest>
